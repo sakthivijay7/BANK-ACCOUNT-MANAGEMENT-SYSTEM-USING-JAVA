@@ -33,12 +33,15 @@ JOptionPane used to user friendly GUI with 2 lines.
 used input dialog to ask all input formats,same as message dialog popup with messages.
 
 INPUT GUI:
+
 <img width="304" height="139" alt="INPUT" src="https://github.com/user-attachments/assets/eeefd078-8232-49ff-8bbc-17a5ae5a8d4e" />
 
 INVALID MESSAGE:
+
 <img width="297" height="132" alt="INVALID" src="https://github.com/user-attachments/assets/a0abc86f-b57e-43db-a35f-8a0079c1dc03" />
 
 RESULT:
+
 At the end ,The Transaction Result in the termial:
 <img width="406" height="257" alt="transaction details" src="https://github.com/user-attachments/assets/b4f2a85b-f56c-4685-8aa0-e662ae84fefa" />
 
