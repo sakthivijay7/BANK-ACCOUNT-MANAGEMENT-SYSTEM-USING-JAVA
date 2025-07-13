@@ -1,0 +1,9 @@
+Make a directory bin folder:
+1. mkdir bin
+
+Compile path with library,bin,java file it creates class files inside bin folder:
+2. javac -cp "library/mysql-connector-j-9.3.0.jar" -d "java_files/bin" "java_files/User.java" "java_files/Transaction.java" "java_files/Bank.java"
+
+Run the java file with mysql jar:
+3. java -cp "library/mysql-connector-j-9.3.0.jar;java_files/bin" Bank
+
