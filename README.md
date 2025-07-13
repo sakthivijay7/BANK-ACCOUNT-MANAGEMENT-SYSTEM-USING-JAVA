@@ -2,9 +2,9 @@
 Bank account management system to design with java.
 
 Java files:
-1.Bank.java Main File-It contains bank details and mysql database connection and insert operations.
-2.User.java -It contails users details input Name,GardianName,Phone,Address,Pin.
-3.Transation.java -It contails transaction details like Deposit Amount with date and Withdraw Amount with date.
+1.Bank.java Main File-It contains bank details and MySQL database connection and insert operations.
+2.User.java -It contains users details input Name,GardianName,Phone,Address,Pin.
+3.Transation.java -It contains transaction details like Deposit Amount with date and Withdraw Amount with date.
 
 User file:
 1.User class had checkinfo() and userinfo() function.
@@ -17,14 +17,14 @@ Transaction file:
 1.Transaction class had deposit() and withdraw() function
 2.Initial class had balance=0.
 3.deposit() function details had ask deposit amount and date by user if enter their Amount to add Balance(Balance+DepositAmount).
-4.withdraw() function details had ask withdraw amount and date by user if enter theri Amount to minus their Balance(Balance-WithdrawAmount) if not balance print Invalid Balance.
+4.withdraw() function details had ask withdraw amount and date by user if enter theri Amount to minus their Balance(Balance-WithdrawAmount) if not enough balance popup message Invalid Balance.
 
 Main file:
 1.Main file ,class Bank to create an object to access the other two files like object1=User and object2=Transaction
 2.Now the main file access the two files,the User class functions like call userinfo() to ask user input details and checkinfo() to the filled information provide.
-3.Insert user information to mysql database.
-4.class Transaction deposit() function to ask deposit amount with date,if entered Amount that data insert through mysql DepositDetail table.
-5.withdraw() function to ask withdraw amount with date,if entered their Amount that data insert through mysql WithdrawDetail table.
+3.Insert user information to MySQL database.
+4.class Transaction deposit() function to ask deposit amount with date,if entered Amount that data insert through MySQL DepositDetail table.
+5.withdraw() function to ask withdraw amount with date,if entered their Amount that data insert through MySQL WithdrawDetail table.
 
 GUI:
 JOptionPane used to user friendly GUI with 2 lines.
@@ -50,4 +50,4 @@ Tools and Techniques:
 2.Java 
 3.Eclipse
 4.MySQL
-5.Mysql connection jar file(mysql-connector-j-9.3.0.jar)
+5.MySQl connection jar file(mysql-connector-j-9.3.0.jar)
