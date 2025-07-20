@@ -3,8 +3,10 @@
 Bank account management system to design with java.
 
 - **Java files:**
-`1.Bank.java` Main File-It contains bank details and MySQL database connection and insert operations.---
+`1.Bank.java` Main File-It contains bank details and MySQL database connection and insert operations.
+
 `2.User.java` -It contains users details input Name,GardianName,Phone,Address,Pin.
+
 `3.Transation.java` -It contains transaction details like Deposit Amount with date and Withdraw Amount with date.
 
 - **User file:**
